@@ -1,0 +1,14 @@
+net: "project/siamese/train_test.prototxt"
+test_iter: 100
+test_interval: 500
+base_lr: 0.009
+momentum: 0.9
+weight_decay: 0.0000
+lr_policy: "inv"
+gamma: 0.0001
+power: 0.75
+display: 1000
+max_iter: 200000
+snapshot: 1000
+snapshot_prefix: "project/siamese/siamese"
+solver_mode: GPU
